@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+model Product {
+  id             String   @id @default(uuid())
+  nameAr         String   @map("name_ar")
+  nameEn         String   @map("name_en")
+  descriptionAr  String?  @map("description_ar")
+  descriptionEn  String?  @map("description_en")
+  price          Decimal  @db.Decimal(10, 2)
+  type           String   // 'fresh' or 'ready'
+  category       String?  // e.g., 'traditional', 'blended', 'seasonal'
+  images         String[] // Array of image URLs
+  visible        Boolean  @default(true)
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("products")
+}
+
+model B2BRequest {
+  id            String   @id @default(uuid())
+  businessName  String   @map("business_name")
+  contactPerson String   @map("contact_person")
+  phone         String
+  email         String
+  businessType  String   @map("business_type") // e.g., 'Gym', 'Cafe', 'Restaurant', 'Event Organizer', 'Other'
+  orderDetails  String   @map("order_details")
+  deliveryDate  String?  @map("delivery_date") // Storing as string or Date
+  location      String?
+  status        String   @default("New") // 'New', 'Contacted', 'Closed'
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@map("b2b_requests")
+}
+
+model BlogPost {
+  id             String   @id @default(uuid())
+  titleAr        String   @map("title_ar")
+  titleEn        String   @map("title_en")
+  contentAr      String   @map("content_ar") @db.Text
+  contentEn      String   @map("content_en") @db.Text
+  slug           String   @unique
+  featuredImage  String?  @map("featured_image")
+  category       String?
+  tags           String[]
+  seoTitle       String?  @map("seo_title")
+  seoMeta        String?  @map("seo_meta")
+  published      Boolean  @default(false)
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("blog_posts")
+}
+
+model Message {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  message   String   @db.Text
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("contact_messages")
+}
+
+model SiteSettings {
+  id             String   @id @default("global_config")
+  logoUrl        String?  @map("logo_url")
+  primaryColor   String?  @map("primary_color")
+  contactEmail   String?  @map("contact_email")
+  whatsappNumber String?  @map("whatsapp_number")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("site_settings")
+}

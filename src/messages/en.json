@@ -1,0 +1,91 @@
+{
+  "HomePage": {
+    "title": "AntarX",
+    "heroTitle": "Strong Juice at Any Scale",
+    "heroSubtext": "Fresh Juice for You – Bulk Juice for Your Business",
+    "viewMenu": "View Menu",
+    "bulkOrders": "Bulk Orders",
+    "requestBulkOrder": "Request Bulk Order",
+    "categories": {
+      "title": "Our Categories",
+      "fresh": "Fresh Juice",
+      "ready": "Ready to Deliver",
+      "bulk": "Event Packages"
+    },
+    "whyAntarX": {
+      "title": "Why AntarX?",
+      "pure": "100% Pure Fruit",
+      "pureDesc": "No preservatives, no added sugar, purely natural.",
+      "fresh": "Made Daily",
+      "freshDesc": "Squeezed fresh every morning in our local shop.",
+      "strong": "Strong Impact",
+      "strongDesc": "Energy for your workout and your body."
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "freshJuice": "Fresh Juice",
+    "readyToDeliver": "Ready to Deliver",
+    "bulkOrders": "B2B / Wholesale",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "B2BPage": {
+    "title": "Bulk Juice Supply",
+    "subtitle": "Fresh juice for gyms, cafés, restaurants, and events.",
+    "formTitle": "Request a Quote",
+    "businessName": "Business Name",
+    "contactPerson": "Contact Person",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "businessType": "Business Type",
+    "orderDetails": "Order Details",
+    "deliveryDate": "Preferred Delivery Date",
+    "location": "Location",
+    "submit": "Submit Request",
+    "success": "Our team will contact you soon.",
+    "types": {
+      "gym": "Gym",
+      "cafe": "Cafe",
+      "restaurant": "Restaurant",
+      "event": "Event Organizer",
+      "other": "Other"
+    }
+  },
+  "MenuPage": {
+    "freshTitle": "Fresh Juice Menu",
+    "freshSubtitle": "Available only in-store for maximum freshness.",
+    "readyTitle": "Ready to Deliver",
+    "readySubtitle": "Larger bottles and event packages available for delivery.",
+    "inStoreOnly": "Available in Store Only",
+    "liter": "L",
+    "price": "{amount} EGP",
+    "ingredients": "Ingredients",
+    "noProducts": "No products found in this category."
+  },
+  "AboutPage": {
+    "title": "About AntarX",
+    "storyTitle": "Our Story",
+    "story": "AntarX started with a simple mission: to bring the power of nature to every workout and every workday. We believe in juice that makes a difference.",
+    "missionTitle": "Our Mission",
+    "mission": "To provide the purest, strongest juice in Egypt, supporting local farmers and healthy lifestyles."
+  },
+  "ContactPage": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question? We'd love to hear from you.",
+    "formTitle": "Send a Message",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send Message",
+    "whatsapp": "Chat on WhatsApp",
+    "success": "Message sent! We'll get back to you soon."
+  },
+  "BlogPage": {
+    "title": "AntarX Blog",
+    "subtitle": "Insights, health tips, and stories from the juice world.",
+    "readMore": "Read Full Story",
+    "noPosts": "No blog posts yet. Stay tuned!",
+    "back": "Back to Blog"
+  }
+}
