@@ -82,7 +82,8 @@ export async function getProducts(type?: 'fresh' | 'ready') {
         createdAt: 'desc',
       },
     });
-    return products;
+    // Serialize Decimal to string to be safe for Client Components
+    return products.map(p => ({ ...p, price: p.price.toString() }));
   } catch (error) {
     console.error('Failed to fetch products, falling back to mock data:', error);
     return MOCK_PRODUCTS.filter(p => !type || p.type === type);
