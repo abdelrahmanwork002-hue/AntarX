@@ -11,7 +11,7 @@ export default function InquiryPage({ params }: { params: Promise<{ locale: stri
     const t = useTranslations('Inquiry');
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const [errorMsg, setErrorMsg] = useState(null);
+    const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
