@@ -9,7 +9,7 @@
   "scripts": {
     "dev:customer": "npm run dev --workspace=customer-web",
     "dev:admin": "npm run dev --workspace=admin-dashboard",
-    "build:customer": "npm run build --workspace=customer-web",
-    "build:admin": "npm run build --workspace=admin-dashboard"
+    "build": "npm run build --workspace=customer-web",
+    "vercel-build": "npm run build --workspace=customer-web"
   }
 }
