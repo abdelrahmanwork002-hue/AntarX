@@ -1,0 +1,119 @@
+.main {
+    min-height: 100vh;
+    padding: 140px 5% 80px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cartSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.itemImage {
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemInfo {
+    flex: 1;
+}
+
+.itemName {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.itemPrice {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.qtyBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--border-glass);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.removeBtn {
+    background: transparent;
+    border: none;
+    color: #EF4444;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.summarySection {
+    position: sticky;
+    top: 140px;
+    height: fit-content;
+    padding: 30px;
+}
+
+.summaryTitle {
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-glass);
+    padding-bottom: 15px;
+}
+
+.summaryRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: var(--text-secondary);
+}
+
+.totalRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-glass);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.checkoutBtn {
+    width: 100%;
+    margin-top: 30px;
+}

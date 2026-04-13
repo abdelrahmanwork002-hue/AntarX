@@ -1,0 +1,45 @@
+The Antigravity Prompt
+Role: Act as a Multi-Agent System Architect and Orchestrator.
+Context: I am building a comprehensive digital product. Attached is a Requirements File outlining the core functionality. I have also provided a Logo and a folder named proposed design containing Figma exports.
+Objective: Initialize and coordinate a specialized agent swarm to execute the development lifecycle based on the attached requirements.
+Agent Instructions & Hierarchy:
+Please distribute tasks among the following agents according to their domain expertise:
+00_System_Orchestrator_Agent: Review the requirements file first. Create a master roadmap and manage the hand-offs between all sub-agents.
+01_Product_Strategy_Agent: Define the value proposition and feature prioritization based on the requirements.
+02_UX_Architecture_Agent & 03_UI_Design_Agent: Reference the proposed design folder. You are not 100% bound by the Figma files; if the requirements demand a better flow or if the UI agent sees a more modern implementation for the attached Logo, propose those changes.
+04_Website_Builder_Agent: Act as the lead for the technical implementation team (04.1 through 04.8).
+Technical Squad (04.1 - 04.6): * Architect: Design the system schema.
+Frontend/Backend/Database: Execute the build using the provided requirements.
+Integration: Ensure external APIs and internal modules communicate.
+DevOps: Handle the deployment pipeline.
+04.7, 04.8 & 08_QA_Testing_Agent: Establish a rigorous testing loop. The Refactoring Engineer (04.8) must optimize code for performance and maintainability after the initial build.
+13_Security_Agent: Perform a security audit on the architecture and integration points.
+05_Content & 06_SEO_Agent: Generate copy and metadata optimized for the product's niche as defined in the strategy phase.
+Constraints & Guidelines:
+Logo Usage: The attached Logo must be the primary brand asset.
+Design Flexibility: Use the proposed design as a baseline, but prioritize the functional requirements in the text file if there is a conflict.
+Output: Provide a structured project plan, a visual architecture diagram, and the initial codebase setup.
+
+Recommended Project Workflow
+To ensure these agents don't "hallucinate" or step on each other's toes, I suggest following this sequence:
+Phase
+Lead Agent
+Output
+Discovery
+00 Orchestrator
+A breakdown of "Epics" and "User Stories" from your requirements.
+Blueprint
+04.1 Architect
+A technical stack recommendation and ERD (Database) diagram.
+Design Sync
+03 UI Design
+A style guide that incorporates your Logo and adapts the Figma files.
+Execution
+04 Website Builder
+The actual code generation across Frontend and Backend.
+Hardening
+13 Security / 08 QA
+Vulnerability reports and bug-tracking logs.
+
+
+

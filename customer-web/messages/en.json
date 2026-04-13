@@ -1,0 +1,81 @@
+{
+  "Index": {
+    "title": "Artisanal Freshness In Every Sip & Bite",
+    "subtitle": "Experience the luxury of cold-pressed nature and handcrafted desserts. Tailored for individuals, businesses, and your most memorable events.",
+    "newArrivals": "New Arrivals",
+    "explore": "Explore Catalogue",
+    "ourStory": "Our Story",
+    "collections": "Curated Collections",
+    "juices": "Signature Juices",
+    "juices_desc": "Cold-pressed with organic local ingredients.",
+    "desserts": "Artisanal Desserts",
+    "desserts_desc": "Handcrafted with a modern twist on tradition.",
+    "events": "Event Packages",
+    "events_desc": "Tailored catering for your most special moments."
+  },
+  "Navbar": {
+    "products": "Products",
+    "packages": "Packages",
+    "journal": "Journal",
+    "login": "Login",
+    "register": "Register"
+  },
+  "Auth": {
+    "registerTitle": "Create Your Account",
+    "registerSubtitle": "Join the AntarX world of artisanal flavors.",
+    "selectRole": "I am a...",
+    "individual": "Individual",
+    "business": "Business / Office",
+    "eventCreator": "Event Planner",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "companyName": "Company Name",
+    "vatNumber": "VAT / Tax ID",
+    "eventName": "Event Name",
+    "approxGuests": "Approximate Guests",
+    "submit": "Create Account",
+    "haveAccount": "Already have an account? Login",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to manage your orders and preferences.",
+    "loginBtn": "Sign In",
+    "noAccount": "Don't have an account? Register as an individual, business, or event planner."
+  },
+  "Products": {
+    "title": "Our Collection",
+    "subtitle": "Artisan juices and gourmet desserts crafted for the sophisticated palate.",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "categories": "Categories",
+    "filterAll": "All",
+    "filterJuices": "Juices",
+    "filterDesserts": "Desserts",
+    "priceRange": "Price Range"
+  },
+  "Inquiry": {
+    "title": "Elevate Your Event",
+    "subtitle": "Tell us about your occasion, and we'll craft a bespoke experience.",
+    "eventType": "Event Type",
+    "eventDate": "Event Date",
+    "guestCount": "Expected Guests",
+    "location": "Event Location",
+    "additionalNotes": "Special requests or notes...",
+    "submitInquiry": "Submit Inquiry",
+    "successTitle": "Inquiry Sent",
+    "successMessage": "Thank you. Our event specialist will contact you shortly."
+  },
+  "Checkout": {
+    "title": "Your Shopping Bag",
+    "summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery",
+    "total": "Total",
+    "placeOrder": "Place Order",
+    "emptyCart": "Your cart is empty.",
+    "emptySubtitle": "Go to our collection and discover artisanal freshness.",
+    "confirmTitle": "Order Confirmed!",
+    "confirmMessage": "Thank you for choosing AntarX. Your fresh juices and desserts are being prepared.",
+    "free": "Free",
+    "included": "Included"
+  }
+}

@@ -1,0 +1,49 @@
+for the attached agents
+
+
+
+"
+00_System_Orchestrator_Agent
+
+01_Product_Strategy_Agent
+
+02_UX_Architecture_Agent
+
+03_UI_Design_Agent
+
+04.1_Software_Architect_Agent
+
+04.2_Frontend_Engineer_Agent
+
+04.3_Backend_Engineer_Agent
+
+04.4_Database_Engineer_Agent
+
+04.5_Integration_Engineer_Agent
+
+04.6_DevOps_Engineer_Agent
+
+04.7_QA_Testing_Engineer_Agent
+
+04.8_Refactoring_Engineer_Agent
+
+04_Website_Builder_Agent
+
+05_Content_Agent
+
+06_SEO_Agent
+
+08_QA_Testing_Agent
+
+13_Security_Agent" 
+
+
+
+
+I want to build a system that I have already write the required requirements using antigravity
+
+Please write a prompt to antigravity, it will be attached with the requirements file
+
+the design made by Figma is available in the project folder called proposed design but it is not mandatory to follow 100%
+
+Logo is attached
